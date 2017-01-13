@@ -1,0 +1,4 @@
+1. Provide general diagnostics of program, including time to crash, an inspirational quote, and the stack trace + number of for loops ran.
+2. Provide all variables currently in scope, the exception that was thrown, and the neighboring lines of code that caused it to crash.
+3. Provide some search results from stackoverflow of the type of exception encountered.
+4. Provide a way for people to restart the edited program from the crashed state, reviving the program.
