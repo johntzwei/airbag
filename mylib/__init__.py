@@ -1,6 +1,7 @@
 import __main__
-import sys
 import builtins
+import sys
+from .excepthook import CustomExcepthook
 
 def pinkie(i,j,k):
     return 3
@@ -9,4 +10,4 @@ def pinkie(i,j,k):
 builtins.sys = sys
 
 #apply excepthook wrapper
-__main__.__builtins__.sys.excepthook = pinkie
+__main__.__builtins__.sys.excepthook = CustomExcepthook

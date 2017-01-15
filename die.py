@@ -6,4 +6,6 @@ except Exception:
     print('oh no!')
 
 #actually die
+[ i for i in j ]
+
 i[1]
